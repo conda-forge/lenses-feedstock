@@ -1,5 +1,5 @@
 {% set name = "lenses" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/ingolemo/python-{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 40b9f1aa54a136feb9cf2c96dfa3a9ea89e628cf4ae1de4acb4a38d8ce46422d
+  sha256: 502e20c21e8f70dbc7c5abd89480a98f3373a732110d05cccaa5710ef7cb8328
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -44,7 +44,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: 'A lens library for Python'
+  summary: A lens library for Python
 
   # The remaining entries in this section are optional, but recommended.
   description: |
