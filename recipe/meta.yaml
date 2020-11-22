@@ -16,11 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
   run:
-    - python>=3.6,<3.10
-    - dataclasses # [py36]
+    - python >=3.7
 
 test:
   imports:
