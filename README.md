@@ -3,7 +3,7 @@ About lenses
 
 Home: https://github.com/ingolemo/python-lenses
 
-Package license: GPL-3.0-only
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lenses-feedstock/blob/master/LICENSE.txt)
 
