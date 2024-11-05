@@ -1,5 +1,5 @@
 {% set name = "lenses" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ingolemo/python-{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 502e20c21e8f70dbc7c5abd89480a98f3373a732110d05cccaa5710ef7cb8328
+  sha256: 051435203b3fc173d2e3c2f03240c60066cad892a3281149629e8d517033b542
 
 build:
   noarch: python
